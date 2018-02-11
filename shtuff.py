@@ -7,3 +7,6 @@ class POI:
         self.latlong_str = f'{self.latitude},{self.longitude}'
         self.longlat_lst = [self.longitude, self.latitude]
         self.alias = alias
+
+import folium
+
